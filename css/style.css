@@ -31,3 +31,7 @@ span.form3{
 .carte{
   margin-left: 60px;
 }
+
+input{
+  border-radius: 0px;
+}

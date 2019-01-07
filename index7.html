@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <p><span class="form1">Votre identité</span></p>
+    <div class="form1">
+    <ol>
+      <li>
+      <form method="post" action="traitement.php">
+        <p>
+          <label>Nom</label> :
+          <input type="text" name="pseudo" id="pseudo" placeholder="Ex : Nom" />
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Prénom</label> : <input type="text" name="pseudo" id="pseudo" placeholder="Ex : Prénom" />
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Adresse email</label> :
+          <input type="text" name="email" id="email" placeholder="Ex : E2n@email.com" />
+        </p>
+      </li>
+      </form>
+    </ol>
+    </div>
+    <p><span class="form2">Adresse de livraison</span></p>
+    <div class="form2">
+    <ol>
+      <li>
+      <form method="post" action="traitement.php">
+        <p>
+       <label for="Adresse">Adresse :</label>
+       <textarea name="Adresse" id="Adresse"></textarea>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Code postale</label> : <input type="text" name="code" id="code" placeholder="Code postale" />
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Ville</label> :
+          <input type="text" name="ville" id="ville" placeholder="Ville" />
+        </p>
+      </li>
+      </form>
+    </ol>
+    </div>
+    <p><span class="form3">Informations de réglement</span></p>
+    <div class="form3">
+    <ol>
+      <li>
+      <form method="post" action="traitement.php">
+        <p>
+            Type de carte bancaire:<br />
+          <div class="carte">
+            <input type="radio" name="carte bancaire" value="Visa" id="Visa" /> <label for="Visa">VISA</label><br />
+            <input type="radio" name="carte bancaire" value="MasterCard" id="MasterCard" /> <label for="MasterCard">Mastercard</label><br />
+          </div>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Numéro de carte</label> : <input type="text" name="numéro" id="numéro" placeholder="Numéro de carte" />
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Code de sécurité</label> : <input type="text" name="code" id="code" placeholder="Code de sécurité" />
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Nom du titulaire</label> : <input type="text" name="titulaire" id="titulaire" placeholder="Nom du titulaire" />
+        </p>
+      </li>
+      </form>
+    </ol>
+    </div>
+  </body>
+</html>

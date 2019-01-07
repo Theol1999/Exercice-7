@@ -8,9 +8,10 @@
   <body>
     <p><span class="form1">Votre identité</span></p>
     <div class="form1">
-    <ol>
-      <li>
       <form method="post" action="traitement.php">
+      <fieldset>
+        <ol>
+          <li>
         <p>
           <label>Nom</label> :
           <input type="text" name="pseudo" id="pseudo" placeholder="Ex : Nom" />
@@ -27,14 +28,16 @@
           <input type="text" name="email" id="email" placeholder="Ex : E2n@email.com" />
         </p>
       </li>
+      </ol>
+    </fieldset>
       </form>
-    </ol>
     </div>
     <p><span class="form2">Adresse de livraison</span></p>
     <div class="form2">
-    <ol>
-      <li>
       <form method="post" action="traitement.php">
+      <fieldset>
+        <ol>
+          <li>
         <p>
        <label for="Adresse">Adresse :</label>
        <textarea name="Adresse" id="Adresse"></textarea>
@@ -51,14 +54,16 @@
           <input type="text" name="ville" id="ville" placeholder="Ville" />
         </p>
       </li>
-      </form>
     </ol>
+  </fieldset>
+      </form>
     </div>
     <p><span class="form3">Informations de réglement</span></p>
     <div class="form3">
+      <form method="post" action="traitement.php">
+    <fieldset>
     <ol>
       <li>
-      <form method="post" action="traitement.php">
         <p>
             Type de carte bancaire:<br />
           <div class="carte">
@@ -82,6 +87,7 @@
           <label>Nom du titulaire</label> : <input type="text" name="titulaire" id="titulaire" placeholder="Nom du titulaire" />
         </p>
       </li>
+    </fieldset>  
       </form>
     </ol>
     </div>

@@ -1,35 +1,31 @@
 .form1{
   background-color: #2574A9;
-  margin-top: -17px;
-  padding-bottom: 15px;
-  padding-top: 5px;
+  margin-top: -20px;
 }
 
-span .form1{
+span.form1{
   background-color:#2574A9;
+  margin-left: 10px;
 }
 
 .form2{
   background-color: #9A12B3;
-  margin-top: -17px;
-  padding-bottom: 15px;
-  padding-top: 5px;
+  margin-top: -20px;
 }
 
-span .form2{
+span.form2{
   background-color:#9A12B3;
+  margin-left: 10px;
 }
 
 .form3{
   background-color: #DB0A5B;
-  margin-top: -17px;
-  padding-bottom: 15px;
-  padding-top: 5px;
-}
+  margin-top: -20px;
 }
 
-span .form3{
+span.form3{
   background-color: #DB0A5B;
+  margin-left: 10px;
 }
 
 .carte{
